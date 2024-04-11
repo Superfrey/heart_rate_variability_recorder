@@ -44,3 +44,21 @@ button:hover {
 ol {
     line-height: 1.6;
 }
+
+#new-recording-btn {
+    /* Similar styling as the #heartbeat-btn */
+    background-color: #28a745; /* A different color to distinguish it */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#new-recording-btn:hover {
+    background-color: #218838;
+}
+
